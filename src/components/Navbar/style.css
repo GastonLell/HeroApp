@@ -1,0 +1,10 @@
+
+.hero-app a{
+    font-size: 40px;
+    color: #fff;
+}
+.hero-app a:hover{
+    text-decoration: none;
+    opacity: 0.7;
+}
+

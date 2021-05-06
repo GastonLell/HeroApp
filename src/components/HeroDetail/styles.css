@@ -1,0 +1,30 @@
+.card-detail {
+    width: 100%;
+    height: auto;
+}
+
+.card-detail img {
+    width: 60%;
+    height: auto;
+}
+
+.card-detail .card-detail-text {
+    padding-top: 40px;
+    text-align: center;
+}
+.card-detail .card-detail-text h2{
+    font-size: 60px;
+}
+@media (min-width: 726px) {
+    .card-detail{
+        height: 85vh;
+    }
+    .card-detail .card-detail-container {
+        display: flex;
+    }
+
+    .card-detail .card-detail-text {
+        padding-top: 0;
+        text-align: left;
+    }
+}
